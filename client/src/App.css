@@ -1,0 +1,42 @@
+body {
+    background-color:#1d1d29;
+}
+.App-header {
+    /* background-color: #282c34; */
+    /* min-height: 500vh; */
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+  }
+
+th>button.titleLink {
+    background-color: transparent;
+    border: none;
+    padding: 0 0;
+}
+th{
+    background-color: #28273b !important;
+}
+
+/* Not right here fix dis */
+.table-container{
+    margin-left: clamp(11vw,12rem,12vw);
+    margin-right: clamp(11vw,12rem,12vw);
+    margin-top: 4rem;
+    margin-bottom: 12rem;
+    max-height: 65vh;
+    overflow:auto;
+}
+
+thead.table-titles{
+    position: sticky;
+    top:0;
+}
+
+.nav{
+    background-color: orange;
+    padding-bottom: 20px
+}
